@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    box-sizing: border-box;
+  }
+  
+  .container { 
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: #ffffff;
+  }

@@ -1,0 +1,51 @@
+body {
+    background-color: #33b749;
+    margin: 0;
+    font-family: "Lekton", monospace;
+    height: 100vh;
+    }
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+#stopwatch {
+    z-index: 2;
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: bold;
+  }
+
+ul {
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding: 0;
+}
+  
+li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+
+li a {
+  text-decoration: none;
+  color: #d7e4ec;
+}
+
+.info {
+    color: #d7e4ec;
+    max-width: 1000px;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+
+.answer {
+    background-color: #d7e4ec;
+    color: #33b749;
+}
