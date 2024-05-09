@@ -1,5 +1,5 @@
 body {
-    background-color: #33b749;
+    background-color: #a7c4c7;
     margin: 0;
     font-family: "Lekton", monospace;
     height: 100vh;
@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 50px;
   }
   
 #stopwatch {
@@ -33,11 +34,11 @@ li {
 
 li a {
   text-decoration: none;
-  color: #d7e4ec;
+  color: #42185e;
 }
 
 .info {
-    color: #d7e4ec;
+    color: #42185e;
     max-width: 1000px;
     margin-right: 50px;
     margin-left: 50px;
@@ -45,7 +46,12 @@ li a {
     font-size: 20px;
   }
 
+.question {
+  background-color: white;
+  font-style: italic;
+}
+
 .answer {
-    background-color: #d7e4ec;
-    color: #33b749;
+    background-color: #42185e;
+    color: #a7c4c7;
 }

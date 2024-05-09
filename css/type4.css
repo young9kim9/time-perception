@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 50px;
   }
   
 #stopwatch {
@@ -44,6 +45,11 @@ li a {
     line-height: 1.5;
     font-size: 20px;
   }
+
+.question {
+  background-color: #45a1af;
+  font-style: italic;
+}
 
 .answer {
     background-color: #fef9cd;

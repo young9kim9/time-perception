@@ -7,30 +7,46 @@
     <title>time perception</title>
     <link rel="stylesheet" href="css/type5.css">
     <script src="script/stopwatch.js" defer></script>
+    <script src="script/checkbox.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   
   <body>
-    <div id="stopwatch">00:00:00</div>
+    <!-- <div id="stopwatch">00:00:00</div> -->
     
     <div class="container">
       
       <ul>
-        <li><a href="type1.html">type1: a 2-year-old boy</a></li>
-        <li><a href="type2.html">type2: a 7-year-old me with a hobby</a></li>
-        <li><a href="type3.html">type3: a 18-year-old student who studies</a></li>
-        <li><a href="type4.html">type4: a 24-year-old student who meditates</a></li>
-        <li style="font-style: italic; font-weight: bold;"><a href="type5.html">- type5: a 24-year-old designer from africa</a></li>
-        <li><a href="type6.html">type6: a 23-year-old student who doesn't whine</a></li>
+        <li><a>2024</a></li>
+        <li><a href="type1.html">youngjun</a></li>
+        <li><a href="type2.html">me in the past</a></li>
+        <li><a href="type3.html">daeun</a></li>
+        <li><a href="type4.html">jennifer</a></li>
+        <li style="font-style: italic; font-weight: bold;"><a href="type5.html">- faith (24y/o, female, nigeria)</a></li>
+        <li><a href="type6.html">waffa</a></li>
+        <li><a href="type7.html">seri</a></li>
+        <li><a href="type8.html">stacey</a></li>
+        <li>to be added..</li>
       </ul>
 
       <div class="info">
-        <div class="answer">
-          "we're mostly laid-back."
+        <div class="question">
+          how do you feel when you think of time?
         </div>
-        <br>
+        <div class="answer">
+          "it feels different depending on what i do.
+          i'm working as a designer and i feel overwhelmed these days because of the large amount of work.
+          i always wait for the time to get off work, but time goes by too slowly!"
+        </div>
+
+        <div id="checkboxContainer">
+          <!-- Initial checkbox -->
+          <label>
+              <input type="checkbox" class="checkbox" onchange="addNewCheckbox(this)"> make sketches
+          </label>
+      </div>
       </div>
 
     </div>

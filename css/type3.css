@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 50px;
   }
   
 #stopwatch {
@@ -45,6 +46,11 @@ li a {
     font-size: 20px;
   }
 
+.question {
+  background-color: white;
+  font-style: italic;
+}
+
 .answer {
     background-color: #690876;
     color: #e3e2d4;
@@ -57,7 +63,7 @@ li a {
 
 .tooltip .tooltiptxt {
     visibility: hidden;
-    width: 120px;
+    width: 330px;
     background-color: white;
     color: #690876;
     text-align: center;
@@ -86,17 +92,19 @@ li a {
   visibility: visible;
 }
 
-.load-more-button {
-    margin-top: 20px;
+#loadMoreButton {
+    margin-top: 10px;
+    margin-bottom: 50px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    background-color: #e3e2d4;
+    color: #690876;
+    border: solid 1px #690876;
     cursor: pointer;
+    font-family: "Lekton", monospace;
 }
 
-.additional-paragraphs p {
+#additionalParagraphs p {
     margin-top: 10px;
     line-height: 1.5;
+    margin-bottom: 50px;
 }

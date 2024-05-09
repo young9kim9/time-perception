@@ -28,12 +28,11 @@ function getRandomImageURL() {
     img.src = imageUrl;
     img.style.position = 'absolute';
 
-    const imageSize = 150; // Set a fixed size for the images (adjust as needed)
+    const imageSize = 150;
 
-    img.style.width = `${imageSize}px`; // Set width of the image
-    img.style.height = 'auto'; // Maintain aspect ratio
+    img.style.width = `${imageSize}px`;
+    img.style.height = 'auto';
 
-    // Calculate interaction coordinates relative to the viewport
     let posX, posY;
 
     if (event.type === 'click' || event.type === 'mousedown') {
@@ -46,15 +45,13 @@ function getRandomImageURL() {
         posY = (event.touches[0].pageY / window.innerHeight) * 100 + '%';
     }
 
-    // Position the image at the interaction coordinates
     img.style.left = posX;
     img.style.top = posY;
-    img.style.transform = 'translate(-50%, -50%)'; // Center the image at interaction position
+    img.style.transform = 'translate(-50%, -50%)';
 
     document.body.appendChild(img);
 }
 
-// Add event listeners for both click and touch events
 document.body.addEventListener('click', handleImageInteraction);
 document.body.addEventListener('touchstart', handleImageInteraction);
 document.body.addEventListener('touchmove', handleImageInteraction);

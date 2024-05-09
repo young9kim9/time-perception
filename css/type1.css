@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 50px;
   }
   
   #stopwatch {
@@ -26,10 +27,15 @@ ul {
     padding: 0;
 }
 
-  li {
+li {
     list-style: none;
     margin-bottom: 5px;
   }
+
+.question {
+  background-color: white;
+  font-style: italic;
+}
 
 .answer {
   color: #f1ccc9;
@@ -48,6 +54,7 @@ ul {
 .info h2 {
   font-size: 60px;
   margin: 0;
+  margin-top: 40px;
 }
 
 .info p {
